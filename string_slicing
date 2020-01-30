@@ -1,0 +1,42 @@
+ string slicing substrings-3.py
+
+mystring="ABCDE"
+start=0
+end=3
+print("first three characte: "+mystring[start:end])
+
+# string silicing substring-4.py
+
+mysting="ABCDE"
+print("first three character: " +mystring[0:3])
+print("characters 1 through 3: " + mystring[1:4])
+
+mystring1="ABCDE"
+print("first three character: " + mystring1[:3])
+print("character from 3 to the end: " + mystring1[3:])
+print("character from 3 to 10: " +mystring1[3:10])
+
+
+# Negative indices-1.py    
+mystring2="ABCDE"
+print("last two characters: " + mystring2[len(mystring2)-2:])
+
+myname="Mujahed"
+print("lsast two char of m name: " +myname[len(myname)-3:])
+
+frndname="Mohsin"
+print("last two char of name: " + frndname[len(frndname)-2:])
+
+frndname1="zabi"
+print("last char of name: " + frndname1[len(frndname1)-1:])
+
+mystring="last two char"
+print("last five char from mystring: " + mystring[len(mystring)-5:])
+# nagetive indices-2.py    
+mystring="ABCDE"
+print("All but the last two characters: " + mystring[:-2])
+print("last two characters: " +mystring[-2:])
+python="python is object oriented language"
+print("last five word from string: " + python[-5:])
+python="python is object oriented language"
+print(python[3:-5])
